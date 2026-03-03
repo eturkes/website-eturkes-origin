@@ -14,7 +14,7 @@ pagerSize = 10
   featured = true
 
   [params.socials]
-    twitter = "https://x.com/EmirTurkes1"
+    x = "https://x.com/EmirTurkes1"
     github = "https://github.com/eturkes"
     linkedin = "https://www.linkedin.com/in/eturkes/"
 

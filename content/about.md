@@ -29,6 +29,6 @@ In my spare time, I enjoy playing electric guitar and exploring new music. I als
 
 - [CV (PDF)](/media/emir-turkes-cv.pdf)
 - [Google Scholar](https://scholar.google.com/citations?user=IIat3ncAAAAJ&hl=en)
-- [Twitter](https://x.com/EmirTurkes1)
+- [X (Twitter)](https://x.com/EmirTurkes1)
 - [GitHub](https://github.com/eturkes)
 - [LinkedIn](https://www.linkedin.com/in/eturkes/)
