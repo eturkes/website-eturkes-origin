@@ -1,7 +1,7 @@
 baseURL = "https://eturkes.com/"
-title = "Emir Turkes"
-copyright = "© 2025 Emir Turkes"
-languageCode = "en-gb"
+title = "Website of Emir Turkes"
+copyright = "© 2026 Emir Turkes"
+languageCode = "en-us"
 theme = "origin"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
@@ -14,7 +14,7 @@ pagerSize = 10
   featured = true
 
   [params.socials]
-    twitter = "https://twitter.com/quietlywander"
+    twitter = "https://x.com/EmirTurkes1"
     github = "https://github.com/eturkes"
     linkedin = "https://www.linkedin.com/in/eturkes/"
 
