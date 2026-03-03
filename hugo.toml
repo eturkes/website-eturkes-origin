@@ -1,3 +1,51 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://eturkes.com/"
+title = "Emir Turkes"
+copyright = "© 2025 Emir Turkes"
+languageCode = "en-gb"
+theme = "origin"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[pagination]
+pagerSize = 10
+
+[params]
+  description = "PhD graduate from UCL researching neurodegenerative disease using bioinformatic methods"
+  featured = true
+
+  [params.socials]
+    twitter = "https://twitter.com/quietlywander"
+    github = "https://github.com/eturkes"
+    linkedin = "https://www.linkedin.com/in/eturkes/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/post/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/media/emir-turkes-cv.pdf"
+    weight = 30
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+  [markup.goldmark.renderer]
+    unsafe = true
