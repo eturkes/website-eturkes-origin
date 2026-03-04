@@ -39,6 +39,12 @@ pagerSize = 10
     weight = 20
 
   [[menu.main]]
+    identifier = "get-started"
+    name = "Get Started"
+    url = "/get-started/"
+    weight = 25
+
+  [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/media/emir-turkes-cv.pdf"

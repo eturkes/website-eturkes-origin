@@ -20,6 +20,12 @@ If you already cloned without `--recurse-submodules`:
 git submodule update --init
 ```
 
+Create the required `env.js` for the Get Started page:
+
+```sh
+cp static/get-started/env.js.example static/get-started/env.js
+```
+
 ## Development
 
 Start the local dev server:
@@ -50,6 +56,7 @@ hugo
 ├── static/
 │   ├── favicon-32.png      # Site favicon
 │   ├── pubs.bib            # BibTeX bibliography
+│   ├── get-started/               # AI assistant setup tool (git submodule)
 │   └── media/
 │       ├── avatar.jpg
 │       ├── emir-turkes-cv.pdf
@@ -73,7 +80,7 @@ All site configuration is in `hugo.toml`:
   - `description` — Tagline displayed below the title
   - `featured` — `true` to show the 3 most recent posts as featured cards on the homepage
 - **`[params.socials]`** — Social links rendered in the footer (supports `x`, `github`, `linkedin`, and others defined by the theme)
-- **`[menu.main]`** — Top navigation items (Home, About, Publications, CV)
+- **`[menu.main]`** — Top navigation items (Home, About, Publications, Get Started, CV)
 - **`[markup.goldmark.renderer]`** — `unsafe = true` allows raw HTML in Markdown content
 
 ## Adding Content
@@ -119,10 +126,11 @@ The site uses a [personal fork](https://github.com/eturkes/origin-hugo-theme) of
 - Social media icon links in the footer
 - Optional JS-free mode (`params.cssonly = true`)
 
-To update the theme submodule:
+To update submodules:
 
 ```sh
 git submodule update --remote themes/origin
+git submodule update --remote static/get-started
 ```
 
 ## License

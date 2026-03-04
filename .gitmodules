@@ -1,3 +1,6 @@
 [submodule "themes/origin"]
 	path = themes/origin
 	url = git@github.com:eturkes/origin-hugo-theme.git
+[submodule "static/get-started"]
+	path = static/get-started
+	url = git@github.com:eturkes/get-started.git
