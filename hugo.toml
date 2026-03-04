@@ -21,6 +21,12 @@ pagerSize = 10
 [menu]
 
   [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"

@@ -73,7 +73,7 @@ All site configuration is in `hugo.toml`:
   - `description` — Tagline displayed below the title
   - `featured` — `true` to show the 3 most recent posts as featured cards on the homepage
 - **`[params.socials]`** — Social links rendered in the footer (supports `x`, `github`, `linkedin`, and others defined by the theme)
-- **`[menu.main]`** — Top navigation items (About, Publications, CV)
+- **`[menu.main]`** — Top navigation items (Home, About, Publications, CV)
 - **`[markup.goldmark.renderer]`** — `unsafe = true` allows raw HTML in Markdown content
 
 ## Adding Content
